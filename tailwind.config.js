@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,5 +15,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".perspective-1000": {
+          perspective: "1000px",
+        },
+        ".transform-style-3d": {
+          "transform-style": "preserve-3d",
+        },
+      });
+    }),
+  ],
 };
