@@ -14,7 +14,7 @@ const images = [
   "/img4.jpeg",
   "/img5.jpeg",
   "/img6.jpg",
-  "/img7.png",
+  "/img7.jpg",
 ];
 
 function Carousel() {
