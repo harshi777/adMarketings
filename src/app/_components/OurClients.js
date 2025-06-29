@@ -98,7 +98,7 @@ export default function OurClients() {
   }, [imagesLoaded]);
 
   return (
-    <section className="py-20 px-4 font-serif bg-gray-50 -mt-10">
+    <section className="py-20 px-4 font-serif bg-gray-100 -mt-10 -mx-8">
       <div className="max-w-5xl mx-auto text-center opacity-0">
         <h2
           ref={headingRef}

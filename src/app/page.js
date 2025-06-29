@@ -1,5 +1,29 @@
-import Image from "next/image";
+import AnimatedHero from "./_components/AnimatedHero";
+import OurClients from "./_components/OurClients";
+import Services from "./_components/Services";
+import Testimonials from "./_components/Testimonials";
+import WhoWeAreAnimated from "./_components/WhoWeAre";
 
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello World!</h1>;
+function Page() {
+  return (
+    <>
+      <section>
+        <AnimatedHero />
+      </section>
+      <section>
+        <WhoWeAreAnimated />
+      </section>
+      <section>
+        <Services />
+      </section>
+      <section>
+        <OurClients />
+      </section>
+      <section>
+        <Testimonials />
+      </section>
+    </>
+  );
 }
+
+export default Page;

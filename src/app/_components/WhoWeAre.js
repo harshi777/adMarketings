@@ -66,7 +66,7 @@ export default function WhoWeAreAnimated() {
   }, []);
 
   return (
-    <section className="px-4 py-20 -mt-60 font-serif bg-gray-100">
+    <section className="px-4 -mx-8 py-20 -mt-60 font-serif bg-gray-100">
       <div className="w-full max-w-4xl mx-auto opacity-0">
         <p
           ref={headingRef}
@@ -81,12 +81,12 @@ export default function WhoWeAreAnimated() {
           className="text-base sm:text-lg leading-relaxed text-gray-800 space-y-6"
         >
           <p>
-            We’re known for our data-driven results and head-turning creatives
-            in digital marketing. We’re focused on your brand and look to build
-            long-term relationships where you can trust us for everything from
-            strategy to creatives — and even if you want a cup of coffee, we’ve
-            got the best house blend just for you. Our creative digital
-            marketing agency will help you at every step.
+            We&apos;re known for our data-driven results and head-turning
+            creatives in digital marketing. We&apos;re focused on your brand and
+            look to build long-term relationships where you can trust us for
+            everything from strategy to creatives — and even if you want a cup
+            of coffee, we&apos;ve got the best house blend just for you. Our
+            creative digital marketing agency will help you at every step.
           </p>
           <p>
             We have a massive collection of skills and experience with our team

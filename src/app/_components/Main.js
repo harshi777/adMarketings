@@ -1,27 +1,9 @@
-import AnimatedHero from "./AnimatedHero";
-import OurClients from "./OurClients";
-import Services from "./Services";
-import Testimonials from "./Testimonials";
-import WhoWeAre from "./WhoWeAre";
+import RotatingCTA from "./RotatingCTA";
 
-function Main() {
+function Main({ children, className }) {
   return (
-    <main>
-      <section>
-        <AnimatedHero />
-      </section>
-      <section>
-        <WhoWeAre />
-      </section>
-      <section>
-        <Services />
-      </section>
-      <section>
-        <OurClients />
-      </section>
-      <section>
-        <Testimonials />
-      </section>
+    <main className={className}>
+      {children} <RotatingCTA />
     </main>
   );
 }
